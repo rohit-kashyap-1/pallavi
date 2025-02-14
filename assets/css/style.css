@@ -114,4 +114,42 @@ nav{
 }
 .about-section{
     background-image: url('../images/bg.jpg');
+    padding-bottom:150px;
+}
+.why-choose-us{
+    background-color: var(--primary);
+    color: white;
+}
+.xtrf > div:nth-child(1){
+    flex: 3;
+    text-align: left;
+}
+.xtrf > div:nth-child(1) button{
+    text-align: left;
+}
+#v-pills-tab .nav-link{
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#v-pills-tab .nav-link.active{
+    background-color:white;
+    color: black;
+}
+#v-pills-tab .nav-link.active i.fa::before{
+    content: "\f061";
+}
+.xtrf > div:nth-child(2){
+    flex: 9;
+    padding-left: 40px;
+}
+.xtrf > div:nth-child(2) img{
+    height: 250px;
+    float: right;
+    clear: right;
+}
+.bg-ternary{
+    background-color: var(--ternary) !important;
 }
