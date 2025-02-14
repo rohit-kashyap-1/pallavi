@@ -1,0 +1,4 @@
+<Files "admin-email-teamplate.html">  
+  Order Allow,Deny
+  Deny from all
+</Files>

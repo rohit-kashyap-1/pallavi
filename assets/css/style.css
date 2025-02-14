@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --primary:#09122C;
+    --secondary:#872341;
+    --ternary:#BE3144;
+    --accent:#E17564;
+}
+body{
+    font-family: "Inter", serif;
+}
+.logo{
+    max-width: 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu > .menu-item{
+
+}
+
+.menu > .menu-item > a{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.hero{
+    height:660px;
+    overflow: hidden;
+    position: relative;
+    background: black;
+}
+.hero video{
+    width: 100%;
+}
+.hero .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:linear-gradient(to right, rgb(0, 0, 0),rgba(0, 0, 0, 0));
+    color: white;
+    padding-top:80px;
+}
+.hero-content h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.hero-content{
+    max-width: 50%;
+}
+.btn-theme{
+    background-color: var(--ternary) !important;
+    border-color: var(--ternary) !important;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border-width: 2px;
+}
+.btn-theme:hover{
+    background-color: var(--secondary) !important;
+    border-color: white !important;
+}
+.text-italic{
+    font-style: italic;
+}
+.section{
+    padding: 60px 0;
+}
+.p{
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+.btn-primary:hover{
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+.btn{
+    border-radius: 40px;
+}
+.btn-lg{
+    font-size: 16px;
+    padding: 12px 24px;
+}
+.about-section-images{
+    position: relative;
+}
+.about-section-images img{
+    border-radius: 14px;
+    position: absolute;
+}
+.about-section-images img:nth-child(1){
+    width: 350px;
+    left: 150px;
+
+}
+.about-section-images img:nth-child(2){
+    left: 0;
+    top: 150px;
+    width: 350px;
+    z-index: 1;
+}
+.about-section-images img:nth-child(3){
+    right: 50px;
+    top: 300px;
+    width: 450px;
+}
+.about-section{
+    background-image: url('../images/bg.jpg');
+}
