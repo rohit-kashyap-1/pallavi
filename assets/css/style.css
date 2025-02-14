@@ -153,3 +153,39 @@ nav{
 .bg-ternary{
     background-color: var(--ternary) !important;
 }
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.service-item{
+    background-image: url('../images/blue-bg.jpg');
+    background-size: cover;
+    padding: 48px 32px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: 500ms;
+}
+.service-item img{
+    filter: invert(1);
+    width: 60px;
+    margin-bottom: 16px;
+}
+.service-item h4{
+    font-weight: bolder;
+}
+.service-item  p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.text-secondary{
+    color: var(--secondary) !important;
+}
+.text-ternary{
+    color: var(--ternary) !important;
+}
+.service-item:hover{
+    background-position: -80px;
+}
