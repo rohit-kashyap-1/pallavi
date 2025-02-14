@@ -189,3 +189,15 @@ nav{
 .service-item:hover{
     background-position: -80px;
 }
+.problem-solved{
+    background-image: url('../images/bg-3.jpg');
+    background-size: cover;
+    background-position: right bottom;
+}
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+.xrrr{
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
