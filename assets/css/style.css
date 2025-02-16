@@ -11,8 +11,8 @@ body {
     font-family: "Inter", serif;
 }
 
-.logo {
-    max-width: 250px;
+.logo img {
+    max-width: 200px;
 }
 
 nav {
@@ -137,7 +137,7 @@ nav {
 }
 
 .about-section {
-    background-image: url('../images/bg.jpg');
+    /* background-image: url('../images/bg.jpg'); */
     padding-bottom: 150px;
 }
 
@@ -327,7 +327,7 @@ footer{
 .home-contact a{
     display: inline-block;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -342,5 +342,8 @@ footer{
     color: white;
 }
 .home-contact img{
-    width: 40px;
+    width: 20px;
+}
+.services-section h4{
+    text-transform:uppercase;
 }
