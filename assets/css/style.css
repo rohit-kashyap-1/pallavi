@@ -125,27 +125,27 @@ nav {
 }
 
 .about-section-images img:nth-child(1) {
-    width: 350px;
-    left: 150px;
+    height: 450px;
+    left: 200px;
 
 }
 
 .about-section-images img:nth-child(2) {
     left: 0;
     top: 150px;
-    width: 350px;
+    height: 450px;
     z-index: 1;
 }
 
 .about-section-images img:nth-child(3) {
     right: 50px;
     top: 300px;
-    width: 450px;
+    height: 450px;
 }
 
 .about-section {
     /* background-image: url('../images/bg.jpg'); */
-    padding-bottom: 150px;
+    padding-bottom: 210px;
 }
 
 .why-choose-us {
@@ -208,17 +208,19 @@ nav {
     background-size: 450px;
 }
 .service-item {
-    background-image: url('../images/blue-bg.jpg');
+    /* background-image: url('../images/blue-bg.jpg'); */
+    background-image: url('../images/services-1.webp');
     background-size: cover;
     padding: 48px 32px;
     text-align: center;
     display: block;
     text-decoration: none;
     transition: 500ms;
+    color: black;
 }
 
 .service-item img {
-    filter: invert(1);
+    /* filter: invert(1); */
     width: 60px;
     margin-bottom: 16px;
 }
@@ -386,4 +388,38 @@ footer{
 
 .content hr{
     width: 30%;
+}
+.xgr-item .content strong{
+    display: block;
+    font-size: 18px;
+    color: var(--accent);
+    text-transform: uppercase;
+}
+.dropdown:hover .dropdown-menux{
+    display: block;
+}
+.dropdown-menux{
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    z-index: 9999;
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.dropdown-menux a{
+    display: block;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menux a:hover{
+    color: var(--primary);
+}
+.menu-item > a{
+
+}
+.menu-item > a:hover{
+    color: var(--primary);
 }
